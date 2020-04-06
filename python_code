@@ -4,10 +4,8 @@ numbers.extend("ten eleven twelve thirteen fourteen fifteen sixteen seventeen ei
 
 numbers.extend(ten if one == "zero" else(ten + " " + one)
 
-               for ten in "twenty thirty forty fifty sixty seventy eighty ninety".split()
+   for ten in "twenty thirty forty fifty sixty seventy eighty ninety".split()
 
-               for one in numbers[:10])
-
-               
+   for one in numbers[:10])
 
 print (numbers[99])
